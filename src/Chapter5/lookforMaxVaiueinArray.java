@@ -1,6 +1,6 @@
 package Chapter5;
 
-public class Array {
+public class lookforMaxVaiueinArray {
 
     public static void main(String[] args) {
 
