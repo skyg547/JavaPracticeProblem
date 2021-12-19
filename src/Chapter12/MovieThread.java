@@ -26,6 +26,9 @@ public class MovieThread extends Thread {
      * 8번
      */
 
+
+
+
     @Override
     public void run(){
         while (true){
