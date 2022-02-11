@@ -10,10 +10,12 @@ public class Generic {
         list.add("hello");
         String str = (String) list.get(0); // 타입변환 필수
 
+
         // 타입 변환 불필요
         List<String> genericList = new ArrayList<>();
         genericList.add("hello2");
         String genericString = genericList.get(0);
 
+        System.out.println(str + "|" + genericString );
     }
 }
