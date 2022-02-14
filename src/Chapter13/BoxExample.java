@@ -23,7 +23,10 @@ public class BoxExample {
     * @modifyed : 제네릭 변경 후
     **/
     public static void main(String[] args) {
+        Box<Integer> box = new Box<>();
 
+        box.setT(6);
+        System.out.println(box.getT());
 
     }
 }
