@@ -37,7 +37,7 @@ public class BoxExample {
         int intValue = box1.getT();
 
         Box<String> box2 = Util.booxing("홍길동");
-        String stringValule = box2.getT()
+        String stringValule = box2.getT();
 
         System.out.println(intValue + stringValule);
     }
