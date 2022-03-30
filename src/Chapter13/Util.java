@@ -1,7 +1,5 @@
 package Chapter13;
 
-import javafx.util.Pair;
-
 public class Util {
 
     public static <T> Box<T> booxing(T t) {
