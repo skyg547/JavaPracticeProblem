@@ -18,6 +18,13 @@ public class Student {
     }
 
     @Override
+    public String toString() {
+        return "Student{" +
+                "studentNum='" + studentNum + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object obj) {
         if (obj instanceof Student) {
             Student student = (Student) obj;
