@@ -25,4 +25,14 @@ public class Util {
 
         return Double.compare(v1, v2);
     }
+
+//    public static <K, V> V getValue(Pair<K, V> t1, K t2) {
+//
+//        return t1.getKey() == t2 ? t1.getValue() : null;
+//    }
+
+    public static <P extends Pair<K, V>,K, V> V getValue(P t1, K t2) {
+
+        return t1.getKey() == t2 ? t1.getValue() : null;
+    }
 }
