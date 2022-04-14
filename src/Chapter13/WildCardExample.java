@@ -26,8 +26,8 @@ public class WildCardExample {
     public static void main(String[] args) {
         Course<Student> course = new Course<Student>("자바 과정", 5);
 
-        course.addStudent(new Student("홍길동"));
-        course.addStudent(new Student("임꺽정"));
+//        course.addStudent(new Student("홍길동"));
+//        course.addStudent(new Student("임꺽정"));
 
 
         register(course); // 모든 과정 등록 가능
