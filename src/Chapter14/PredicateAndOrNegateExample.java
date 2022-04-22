@@ -18,7 +18,7 @@ public class PredicateAndOrNegateExample {
 
         predicateABC = predicateA.and(predicateB).and(predicateC);
 
-        result = predicateABC.test(15);
+        result = predicateABC.test(30);
         System.out.println("15 is divisible by 2, 3 and 5: " + result);
     }
 }
