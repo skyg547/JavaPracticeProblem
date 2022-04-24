@@ -8,6 +8,9 @@ public class ArgumentMethodReferencesExample {
 
         function = (a,b) -> a.compareToIgnoreCase(b);
         print(function.applyAsInt("JAVA7", "JAVA8"));
+
+        function = String::compareToIgnoreCase;
+        print(function.applyAsInt("JAVA7", "JAVA8"));
     }
 
     public static void print(int order) {
