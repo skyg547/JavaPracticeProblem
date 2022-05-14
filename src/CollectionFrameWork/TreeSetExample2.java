@@ -31,6 +31,19 @@ public class TreeSetExample2 {
             System.out.println(i);
         }
 
+        System.out.println("-------------------------------");
+
+        NavigableSet<Integer> ns3 = ts.headSet(40, true);
+        for (Integer i : ns3) {
+            System.out.println(i);
+
+        }
+        System.out.println("-------------------------------");
+        NavigableSet<Integer> ns4 = ts.tailSet(40, true);
+        for (Integer i : ns4) {
+            System.out.println(i);
+        }
+
 
     }
 }
