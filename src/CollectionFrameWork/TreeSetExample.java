@@ -34,6 +34,9 @@ public class TreeSetExample {
 
         }
 
+        System.out.println("TreeSet: " + scores);
+
+
 
     }
 }
