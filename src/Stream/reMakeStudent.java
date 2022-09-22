@@ -1,54 +1,51 @@
 package Stream;
 
-public class Student implements Comparable<Student> {
+public class reMakeStudent implements Comparable<Student> {
 
-    public static class Sex{
-        public static final String MALE = "Male";
-        public static final String FEMALE = "FeMale";
+    public enum Sex {
+        MALE, FEMALE
     }
 
-    
-    public static class City{
-        public static final String Seoul = "서울";
-        public static final String Pusan = "부산";
+    public enum City {
+        Seoul, Pusan
     }
 
     private String name;
     private int score;
-    private String sex;
-    private String city;
+    private Sex sex;
+    private City city;
 
-    public Student(String name, int score) {
+    public reMakeStudent(String name, int score) {
         this.name = name;
         this.score = score;
     }
 
-    public Student(String name, int score, String sex) {
+    public reMakeStudent(String name, int score, Sex sex) {
         this.name = name;
         this.score = score;
         this.sex = sex;
     }
 
-    public Student(String name, int score, String sex, String city) {
+    public reMakeStudent(String name, int score, Sex sex, City city) {
         this.name = name;
         this.score = score;
         this.sex = sex;
         this.city = city;
     }
 
-    public String getCity() {
+    public City getCity() {
         return city;
     }
 
-    public void setCity(String city) {
+    public void setCity(City city) {
         this.city = city;
     }
 
-    public String getSex() {
+    public Sex getSex() {
         return sex;
     }
 
-    public void setSex(String sex) {
+    public void setSex(Sex sex) {
         this.sex = sex;
     }
 
